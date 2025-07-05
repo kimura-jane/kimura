@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>かなたけ×木村のおにぎり占い</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="images/top_logo.jpg" alt="おにぎり屋かなたけロゴ">
+    <h1>かなたけ×木村の<br><span class="large">おにぎり占い</span></h1>
+    <button id="startBtn">スタート ▶︎</button>
+  </header>
+
+  <section id="quizSection" class="hidden">
+    <div id="quizContainer"></div>
+    <button id="submitBtn">結果を見る</button>
+  </section>
+
+  <section id="resultSection" class="hidden">
+    <h2 id="resultTitle"></h2>
+    <img id="resultImg" src="" alt="">
+    <p id="resultTagline"></p>
+    <hr>
+    <p id="dailyLuck"></p>
+    <p id="luckyTaste"></p>
+    <p id="luckyAction"></p>
+    <p id="advice"></p>
+    <button id="restartBtn">もう一度占う</button>
+  </section>
+
+  <footer>
+    <small>&copy; 2025 かなたけ×木村</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
